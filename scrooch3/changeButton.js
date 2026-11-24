@@ -6,12 +6,12 @@
 
     links.forEach(link => {
       // Change link
-      link.href = "https://www.google.com";
+      link.href = "https://www.github.com/evergreen-real";
 
       // Change text inside
       const span = link.querySelector(".button_content_3jdgj span");
       if (span) {
-        span.textContent = "Google";
+        span.textContent = "Visit my GitHub!";
       }
     });
   }
